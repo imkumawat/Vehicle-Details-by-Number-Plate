@@ -74,5 +74,5 @@ for ele in getdata1:
     if rm.count(ele):
         getdata.remove(ele)
 
-for i in range(0,len(getdata),2):
+for i in range(0,20,2):
     print(getdata[i]," ---> ",getdata[i+1])
